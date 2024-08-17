@@ -1,6 +1,4 @@
-﻿//Aula 14/08/2024
-
-//Aluno: Halbert Nascimento
+﻿//Aluno: Halbert Nascimento
 
 //Prof: Romes
 
