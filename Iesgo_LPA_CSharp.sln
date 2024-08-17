@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iesgo_LPA_CSharp", "Iesgo_LPA_CSharp.csproj", "{C9F02E54-5B79-4456-B55B-D9837CE93A0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9F02E54-5B79-4456-B55B-D9837CE93A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F02E54-5B79-4456-B55B-D9837CE93A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F02E54-5B79-4456-B55B-D9837CE93A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F02E54-5B79-4456-B55B-D9837CE93A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {145586EA-381E-4E85-85C8-AC70DBCA417C}
+	EndGlobalSection
+EndGlobal
