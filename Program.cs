@@ -1,67 +1,108 @@
-﻿//Aluno: Halbert Nascimento
+﻿////Aluno: Halbert Nascimento
 
-//Prof: Romes
-
-
-using System;
-using System.Drawing;
-using System.Runtime.CompilerServices;
-
-using Aula28_08_2024; // usado pois as classes stao dentro desse namespace
-
-namespace Aula_14_08
-{   
-    class Program
-    {
-        static void Main()
-        {
-
-            Par objTeste = new Par();
-            //objTeste.MetodoPar();
-
-            Tabuada objTabuada = new Tabuada();
-            //objTabuada.MetodoTab();
-
-            Contador objContador = new Contador();
-            //objContador.metodoContador();
-
-            MediaNotas objMediaNotas = new MediaNotas();
-            //objMediaNotas.Metodo_mediaNotas();
-
-            CalcularSalario atividade = new CalcularSalario();
-            //atividade.atv();
-
-            RepresentacaoDeCaracteres atividade2 = new RepresentacaoDeCaracteres();
-            //atividade2.MetodoAtv2();
-
-            // Classe SecretariaEscolar esta em outro arquivo de classe SecretariaEscolar.cs
-            SecretariaEscolar secretariaEscolar = new SecretariaEscolar();
-            //secretariaEscolar.Turma();
-
-            Aula28_08_24 aula28_08_24 = new Aula28_08_24();
-            //aula28_08_24.Menu();
-
-            //aula 11/09
-            Carro carro = new Carro("Vermelho", "Fiat", "Uno", 2010, 4);
-            carro.MostrarInfor();
-            carro.AbrirPortas();
-            carro.Acelerar();
-            carro.Frear();
-
-            Console.WriteLine("====================================");
-
-            //instanciar um objeto da classe moto
-            Moto moto = new Moto("Preto", "Honda", "CG 150", 2015, 150);
-            moto.MostrarInfor();
-            moto.DarGrau();
-            moto.Acelerar();
-            moto.Frear();
+////Prof: Romes
 
 
-            //Fim foi ate o 10 do main
-        }
-    }
+
+//using System;
 
 
-    //fim nameSpace aula
-}
+
+//namespace Prova
+//{
+//    public class Operacoes
+//    {
+//        public int Somar(int a, int b)
+//        {
+//            return a + b;
+//        }
+
+//        public int Subtrair(int a, int b)
+//        {
+//            return a - b;
+//        }
+
+//        public int Multiplicar(int a, int b)
+//        {
+//            return a * b;
+//        }
+
+//        public double Dividir(int a, int b)
+//        {
+//            if (b == 0)
+//                throw new DivideByZeroException("Não é possível dividir por zero.");
+
+//            return (double)a / b;
+//        }
+//    }
+
+
+
+
+
+
+//    public class Calculadora
+//    {
+//        public static void Main(string[] args)
+//        {
+//            Operacoes operacoes = new Operacoes();
+//            bool continuar = true;
+
+//            while (continuar)
+//            {
+//                Console.Clear();
+//                Console.WriteLine("Escolha uma operação:");
+//                Console.WriteLine("1. Soma");
+//                Console.WriteLine("2. Subtração");
+//                Console.WriteLine("3. Multiplicação");
+//                Console.WriteLine("4. Divisão");
+//                Console.WriteLine("5. Sair");
+
+//                int escolha = Convert.ToInt32(Console.ReadLine());
+
+//                if (escolha == 5)
+//                {
+//                    continuar = false;
+//                    break;
+//                }
+
+//                Console.WriteLine("Informe o primeiro número:");
+//                int num1 = Convert.ToInt32(Console.ReadLine());
+
+//                Console.WriteLine("Informe o segundo número:");
+//                int num2 = Convert.ToInt32(Console.ReadLine());
+
+               
+                
+//                    switch (escolha)
+//                    {
+//                        case 1:
+//                            Console.WriteLine($"Resultado: {operacoes.Somar(num1, num2)}");
+//                            //pausar ate o usuario teclar uma tecla
+//                            Console.ReadKey();
+//                            break;
+//                        case 2:
+//                            Console.WriteLine($"Resultado: {operacoes.Subtrair(num1, num2)}");
+//                            Console.ReadKey();
+//                            break;
+//                        case 3:
+//                            Console.WriteLine($"Resultado: {operacoes.Multiplicar(num1, num2)}");
+//                            Console.ReadKey();
+//                            break;
+//                        case 4:
+//                            Console.WriteLine($"Resultado: {operacoes.Dividir(num1, num2)}");
+//                            Console.ReadKey();
+//                            break;
+//                        default:
+//                            Console.WriteLine("Opção inválida!");
+//                            Console.ReadKey();
+//                            break;
+//                    }
+                
+                
+
+//                Console.WriteLine();
+//            }
+//        }
+//    }
+//}//fim namespace Prova
